@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>DARK PSYCHO | Official</title>
+<style>
+*{box-sizing:border-box}
+body{
+  background-color: #080808;
+  background-image: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.60)), url("bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ margin:0;color:#eee;
+ font-family:Arial,sans-serif;text-align:center;
+ min-height:100vh;overflow-x:hidden
+}
+nav{
+ padding:22px 12px;border-bottom:1px solid #292929;
+ color:#ff263b;letter-spacing:4px;font-weight:bold
+}
+main{padding:90px 20px 60px}
+.tag{color:#ff263b;letter-spacing:5px;font-size:12px}
+h1{
+ font-size:clamp(42px,11vw,82px);
+ margin:20px 0;text-shadow:0 0 25px #e11
+}
+h1 span{color:#ff263b}
+p{color:#aaa;line-height:1.8}
+.btn{
+ display:inline-block;margin:25px 6px;padding:14px 23px;
+ border:1px solid #ff263b;border-radius:5px;
+ color:white;text-decoration:none;transition:.2s
+}
+.btn:hover{background:#ff263b;transform:scale(1.04)}
+.panel{
+ max-width:600px;margin:35px auto;padding:24px;
+ border:1px solid #292929;border-radius:12px;
+ background:linear-gradient(145deg,#151515,#090909)
+}
+footer{padding:25px;color:#666;font-size:12px}
+
+.brand{display:flex;align-items:center;justify-content:center;gap:12px;color:#fff;text-decoration:none;font-weight:900;letter-spacing:3px}
+.dp-logo{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:2px solid #ff263b;border-radius:10px;color:#ff263b;font-size:21px;font-weight:900;letter-spacing:-2px;text-shadow:0 0 12px #ff263b;box-shadow:0 0 14px #ff263b33}
+.brand-name{font-size:17px}
+.brand-name span{color:#ff263b}
+
+
+/* DARK PSYCHO PREMIUM FEATURES */
+html { scroll-behavior: smooth; }
+body {
+  background-color: #080808;
+  background-image: linear-gradient(rgba(0,0,0,.48), rgba(0,0,0,.72)), url("bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 span, .brand-name span {
+  color: #ff263b;
+  text-shadow: 0 0 18px #ff263b88;
+}
+.dp-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #ff263b;
+  border-radius: 15px;
+  color: #ff263b;
+  font-size: 27px;
+  font-weight: 900;
+  box-shadow: 0 0 18px #ff263b55;
+  animation: dpGlow 2.5s ease-in-out infinite alternate;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: #eee;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.brand-name span { color: #ff263b; }
+.btn {
+  transition: .25s ease;
+}
+.btn:hover {
+  background: #ff263b;
+  color: white;
+  box-shadow: 0 0 22px #ff263b66;
+  transform: translateY(-3px);
+}
+.panel, #about {
+  background: rgba(10,10,10,.72);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+#about {
+  max-width: 600px;
+  margin: 35px auto;
+  padding: 24px;
+  border: 1px solid #292929;
+  border-radius: 12px;
+  scroll-margin-top: 20px;
+}
+@keyframes dpGlow {
+  from { box-shadow: 0 0 8px #ff263b44; }
+  to { box-shadow: 0 0 25px #ff263b99; }
+}
+@media (max-width: 600px) {
+  main { padding: 65px 16px 40px; }
+  h1 { overflow-wrap: anywhere; }
+  .brand { gap: 9px; font-size: 16px; letter-spacing: 2px; }
+  .dp-logo { width: 52px; height: 52px; font-size: 23px; }
+  .panel { padding: 20px; }
+  body { background-attachment: scroll; }
+}
+
+</style>
+</head>
+<body>
+<nav><a class="brand" href="#"><span class="dp-logo">D<span style="color:#fff">P</span></span><span class="brand-name">DARK <span>PSYCHO</span></span></a></nav>
+<main>
+<div class="tag">WELCOME TO MY WORLD</div>
+<h1>DARK <span>PSYCHO</span></h1>
+<p>Silent mind. Dark energy. Unstoppable ambition.</p>
+<div class="panel">
+<h2>NOT LIKE THE OTHERS.</h2>
+<p>I don't follow the crowd.<br>
+I create my own path.</p>
+<a class="btn" href="https://www.instagram.com/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
+<a class="btn" href="#about">EXPLORE</a>
+</div>
+<div id="about">
+<h2>THE MINDSET</h2>
+<p>Think different. Stay focused. Build your own legacy.</p>
+</div>
+</main>
+<footer>© 2026 DARK PSYCHO · ALL RIGHTS RESERVED</footer>
+</body>
+</html>
